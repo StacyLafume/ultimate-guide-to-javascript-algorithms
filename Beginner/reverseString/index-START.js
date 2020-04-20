@@ -5,9 +5,9 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 
 
-function reverseString(text) {
-    // Code goes here
-}
+const reverseString = (text) => [...text].reverse().join('');
+    
+
 
 
 
